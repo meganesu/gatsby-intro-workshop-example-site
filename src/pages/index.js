@@ -1,11 +1,11 @@
 import * as React from "react"
 import { Link } from 'gatsby'
+import Layout from '../components/layout'
 
 // markup
 const IndexPage = () => {
   return (
-    <main>
-      <title>Home Page</title>
+    <Layout title="Home Page">
       <h1>
         Congratulations
         <br />
@@ -14,8 +14,7 @@ const IndexPage = () => {
           🎉🎉🎉
         </span>
       </h1>
-      <Link to="/about">About</Link>
-    </main>
+    </Layout>
   )
 }
 
