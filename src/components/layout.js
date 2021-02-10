@@ -1,17 +1,19 @@
 import React from "react";
 import { Link } from 'gatsby'
 
+import styles from './layout.module.css'
+
 const Layout = ({ pageTitle, children }) => {
   return (
-    <main>
+    <main className={styles.container}>
       <title>{pageTitle}</title>
       <nav>
-				<ul>
+				<ul className={styles.navLinks}>
 					<li><Link to="/">Home</Link></li>
 					<li><Link to="/about">About</Link></li>
 				</ul>
 			</nav>
-      <h1>{pageTitle}</h1>
+      <h1 className={styles.heading}>{pageTitle}</h1>
       {children}
     </main>
   );
