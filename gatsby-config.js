@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "intro-workshop-timing",
+    title: "My Super Cool Blog",
+    description: "A place where I write about whatever I want!"
   },
   plugins: [
     `gatsby-plugin-image`,
