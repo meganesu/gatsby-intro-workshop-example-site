@@ -2,5 +2,8 @@ module.exports = {
   siteMetadata: {
     title: "intro-workshop-timing",
   },
-  plugins: [],
+  plugins: [
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+  ],
 };
