@@ -23,6 +23,7 @@ const Layout = ({ pageTitle, children }) => {
 				<ul className={styles.navLinks}>
 					<li><Link to="/">Home</Link></li>
 					<li><Link to="/about">About</Link></li>
+          <li><Link to="/blog">Blog</Link></li>
 				</ul>
 			</nav>
       <h1 className={styles.heading}>{pageTitle}</h1>
