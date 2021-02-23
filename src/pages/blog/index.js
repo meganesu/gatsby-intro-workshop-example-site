@@ -12,13 +12,11 @@ const BlogPage = ({ data }) => {
             <li>
               <article>
                 <h2>
-                  <Link to={node.slug}>
-                    {node.frontmatter.title}
-                  </Link>
+                  <Link to={node.slug}>{node.frontmatter.title}</Link>
                 </h2>
                 <p>Posted: {node.frontmatter.date}</p>
               </article>
-							<hr />
+              <hr />
             </li>
           );
         })}
@@ -35,7 +33,7 @@ export const query = graphql`
           date(formatString: "MMMM DD, YYYY")
           title
         }
-				body
+        body
         slug
       }
     }

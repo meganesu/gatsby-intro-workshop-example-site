@@ -1,7 +1,7 @@
-import * as React from "react"
-import Layout from '../components/layout'
+import * as React from "react";
+import Layout from "../components/layout";
 
-import { StaticImage } from 'gatsby-plugin-image'
+import { StaticImage } from "gatsby-plugin-image";
 
 // markup
 const IndexPage = () => {
@@ -13,7 +13,7 @@ const IndexPage = () => {
         src="https://pbs.twimg.com/media/EsW978QUcAAj1Pe?format=jpg&name=4096x4096"
       />
     </Layout>
-  )
-}
+  );
+};
 
-export default IndexPage
+export default IndexPage;
